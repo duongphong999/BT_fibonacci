@@ -9,22 +9,27 @@
 <body>
     <script>
        
-        const n = parseInt(prompt('nhập vào một số nguyên')) ;
+        const number = parseInt(prompt('nhập vào một số nguyên')) ;
         let a = 0;
         let b = 1;
         let c;
-        document.write(a+ ', '+ b+', ')
+        let i = 0
+        
+        console.log(a);
+        console.log(b);
         c = a + b;
-        while(c <= n){
-            document.write( c+', ');
+        while(i < number){
+           
+            console.log(c);
             a = b;
             b = c;
             c = a + b;
-            
+           i++; 
         }
         
     
 
     </script>
+
 </body>
 </html>
